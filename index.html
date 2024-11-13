@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>FUNCTION <br> CHAPTER# 35 TO 38</h2>
+ 
+    <!-- QUESTION #1 -->
+     <h1>1)Click the below button to display a cuurent date and time on your browser:</h1>
+     <button class="btn" onclick="displayDate()">CURRENT DATE AND TIME</button>
+     <p class="result">RESULT:</p>
+
+     <!-- QUESTION #2  -->
+
+     <h1>2)Click the greeting button:</h1>
+     <label for="fname">First Name</label><br>
+     <input type="text" id="fname"><br>
+
+     <label for="lname">Last Name</label><br>
+     <input type="text" id="lname"><br>
+
+     <button class="btn" onclick="greeting()">Greeting</button>
+     <p class="result">RESULT:</p>
+
+      <!-- QUESTION #3  -->
+
+      <h1>3)Click the Sum button to show addition of numbers:</h1>
+     <label for="fNum">First Number</label><br>
+     <input type="number" id="fNum" value="5"><br>
+ 
+     <label for="sNum">Second Number</label><br>
+     <input type="number" id="sNum" value="5"><br>
+
+     <button class="btn" onclick="sum()">SUM</button>
+     <p class="result">RESULT:</p>
+
+     <!-- QUESTION# 4 -->
+     <h1>4)Simple Calculator</h1>
+
+     <label for="num1">Number 1:</label><br>
+     <input type="number" id="num1" value="10">
+     <br>
+     
+     <label for="num2">Number 2:</label><br>
+     <input type="number" id="num2" value="5">
+     <br>
+   
+     <label for="operator">Operator:</label>
+     <select id="operator">
+       <option value="+">+</option>
+       <option value="-">-</option>
+       <option value="*">*</option>
+       <option value="/">/</option>
+     </select>
+     <br>
+   
+     <button class="btn" onclick="handleCalculation()">Calculate</button>
+   
+     <p class="result">RESULT : </p>
+
+     <!-- QUESTION# 5 -->
+
+     <h1>5) Square Calculator</h1>
+
+  <label for="num">Enter a number:</label><br>
+  <input type="number" id="num" value="5"><br>
+  <button class="btn" onclick="showSquare()">Square the Number</button>
+
+  <P class="result">RESULT :</P>
+   
+
+  <!-- QUESTION# 6 -->
+
+  <h1>6) Factorial Calculator</h1>
+
+  <label for="num">Enter a number:</label><br>
+  <input type="number" id="num" value="5"><br>
+
+  <button class="btn" onclick="calculateFactorial()">Calculate Factorial</button>
+  <p class="result">RESULT :</p>
+
+  <!-- QUESTION# 7 -->
+
+  <h1>7) Counting from Start to End</h1>
+
+  <label for="start">Start Number:</label><br>
+  <input type="number" id="start" value="1">
+  <br><br>
+
+  <label for="end">End Number:</label><br>
+  <input type="number" id="end" value="10">
+  <br><br>
+
+  
+  <button class="btn" onclick="displayCounting()">Display Counting</button>
+
+  <div id="counting-result">RESULT :</div>
+
+  <!-- QUESTSION# 8 -->
+
+  <h1>8)Hypotenuse Calculator</h1>
+
+  <label for="base">Base:</label><br>
+  <input type="number" id="base" value="3">
+  <br><br>
+
+  <label for="perpendicular">Perpendicular:</label><br>
+  <input type="number" id="perpendicular" value="4">
+  <br><br>
+
+  <button class="btn" onclick="calculateHypotenuse()">Calculate Hypotenuse</button>
+  <P class="result">RESULT :</P>
+
+  <!-- QUESTSION# 9 -->
+
+  <h1>9)Calculate the Area of a Rectangle</h1>
+
+  <label for="width">width:</label><br>
+  <input type="number" id="width" value="3">
+  <br><br>
+
+  <label for="height">Height:</label><br>
+  <input type="number" id="height" value="4">
+  <br><br>
+  
+  <button class="btn" onclick="calculateArea()">Calculate Area (Value Arguments)</button>
+  <p class="result">RESULT :</p>
+
+ <!-- QUESTSION# 10 -->
+
+ <h1>10)Palindrome Checker</h1>
+
+ <label for="String">Enter a string:</label><br>
+ <input type="text" id="String" value="madam">
+ <br><br>
+
+ <button class="btn" onclick="checkPalindrome()">Check Palindrome</button>
+
+ <!-- Div to display the result -->
+ <p class="result">RESULT :</P>
+    
+<!-- QUESTSION# 11 -->
+
+<h1>11)Capitalize First Letter of Each Word</h1>
+
+  <label for="input">Enter a string:</label><br>
+  <input type="text" id="input" value="the quick brown fox">
+  <br><br>
+
+  <button class="btn" onclick="capitalizeWords()">Capitalize Words</button>
+
+  <p class="result">RESULT : </p>
+
+  <!-- QUESTION# 12 -->
+  <h1>12)Find the Longest Word in a String</h1>
+
+  <label for="para">Enter a string:</label><br>
+  <input type="text" id="para" value="Web Development Tutorial"><br>
+  <br>
+
+  <button class="btn" onclick="findLongestWord()">Find Longest Word</button>
+  <p class="result">RESULT :</p>
+
+  <!-- QUESTION# 13 -->
+
+  <h1>13)Count Letter Occurrences in a String</h1>
+
+  <label for="Str">Enter a string:</label><br>
+  <input type="text" id="Str" value="JSResourceS.com">
+  <br><br>
+
+  <label for="Letter">Enter a letter:</label><br>
+  <input type="text" id="Letter" value="o">
+  <br><br>
+
+  <!-- Button to trigger the counting -->
+  <button class="btn" onclick="countLetter()">Count Occurrences</button>
+
+  <!-- Div to display the result -->
+  <p class="result">RESULT :</p>
+
+
+<!-- QUESTION# 14 -->
+
+<h1>14)Circle Geometrizer</h1>
+    
+    <label for="radius">Enter radius:</label><br>
+    <input type="number" id="radius" placeholder="Radius" required>
+    
+    <button class="btn" onclick="calculate()">Calculate</button>
+    
+    <p class="result">RESULT: <br></p>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

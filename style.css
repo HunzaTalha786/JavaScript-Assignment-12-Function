@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0.5rem;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: lightgray;
+}
+.btn{
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5xp;
+    text-align: center;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+}
+.result{
+    font-size: 1.3rem;
+    color: green;
+    margin-top: 0.3rem;
+}
+
+h2{
+    text-align: center;
+}
+
+#counting-result{
+    color: rgb(79, 123, 124);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+input{
+    margin-bottom: 0.5rem;
+}
